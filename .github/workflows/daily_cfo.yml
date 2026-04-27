@@ -21,8 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright
-          pip install pywin32 || true
+          pip install -r requirements.txt
           playwright install chromium
           playwright install-deps chromium
 
