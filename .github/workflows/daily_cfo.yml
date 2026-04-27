@@ -2,7 +2,7 @@ name: CFO Daily Announcement
 
 on:
   schedule:
-    - cron: '40 10 * * *'   # 16:10 IST (4:10 PM) daily
+    - cron: '0 11 * * *'   # 11:00 UTC = 16:30 IST every day
     - cron: '10 11 * * *'   # 16:40 IST backup in case of GitHub delay
   workflow_dispatch:         # manual trigger anytime
 
