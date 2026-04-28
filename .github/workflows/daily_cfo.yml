@@ -2,7 +2,7 @@ name: CFO Daily Announcement
 
 on:
   schedule:
-     - cron: '35 6 * * *'   # 06:35 UTC = 12:05 PM IST every day
+     - cron: '45 6 * * *'   # 06:45 UTC = 12:15 PM IST every day
   workflow_dispatch:
 
 jobs:         
